@@ -10,7 +10,7 @@ void fltCheck (int loop)
   while (c < loop)
     {
 
-      printf ("\t%.2f * %d = %.24f\n", a, loop, b);
+      printf ("\t%.2f * %d = %.24f\n", a, c, b);
       b += a;
       c++;
     }
@@ -27,7 +27,7 @@ void dblCheck (int loop)
   while (c < loop)
     {
 
-      printf ("\t%.2f * %d = %.24f\n", a, loop, b);
+      printf ("\t%.2f * %d = %.24f\n", a, c, b);
       b += a;
       c++;
     }
